@@ -1,0 +1,69 @@
+{
+  "experiment_id": "EXP-2024-001",
+  "experiment_name": "Q4 Subject Line Personalisation",
+  "overall_verdict": "SHIP_TREATMENT",
+  "verdict_confidence": "high",
+  "primary_metric_name": "open_rate",
+  "primary_metric_control": 0.221,
+  "primary_metric_treatment": 0.248,
+  "primary_metric_lift_absolute": 0.027,
+  "primary_metric_lift_relative": 0.122,
+  "primary_metric_confidence": 0.999,
+  "primary_metric_ci": [
+    0.013,
+    0.041
+  ],
+  "is_primary_significant": true,
+  "secondary_metric_results": [
+    {
+      "metric_name": "click_rate",
+      "absolute_lift": 0.008,
+      "p_value": 0.031,
+      "probability_treatment_better": null,
+      "is_significant": true
+    },
+    {
+      "metric_name": "unsubscribe_rate",
+      "absolute_lift": -0.001,
+      "p_value": 0.612,
+      "probability_treatment_better": null,
+      "is_significant": false
+    }
+  ],
+  "guardrail_results": [
+    {
+      "metric_name": "unsubscribe_rate",
+      "is_degraded": false,
+      "relative_change": -0.045,
+      "p_value": 0.61
+    }
+  ],
+  "blocked_guardrails": [],
+  "segment_insights": [
+    {
+      "segment_name": "Enterprise (500+ employees)",
+      "relative_lift": 0.21,
+      "is_significant": true
+    },
+    {
+      "segment_name": "Mid-Market (50-499 employees)",
+      "relative_lift": 0.11,
+      "is_significant": true
+    },
+    {
+      "segment_name": "SMB (1-49 employees)",
+      "relative_lift": 0.03,
+      "is_significant": false
+    }
+  ],
+  "recommendation_text": "Ship treatment. Open Rate improved from 22.1% to 24.8% (+12.2% relative lift). 95% CI: [1.3%, 4.1%]. Secondary metrics also significant: click_rate. Strongest lift in segment 'Enterprise (500+ employees)' (+21.0%).",
+  "estimated_annual_impact": "+579 additional opens per month",
+  "next_steps": [
+    "Coordinate with engineering to roll out treatment to 100% of eligible audience.",
+    "Monitor primary and guardrail metrics for 2 weeks post-full-launch.",
+    "Document experiment learnings in the experiment catalog.",
+    "Schedule a post-launch readout to share results with stakeholders.",
+    "Consider a follow-up experiment targeting 'Enterprise (500+ employees)' where the largest lift was observed."
+  ],
+  "generated_at": "2026-03-28T15:47:45.368937+00:00"
+}

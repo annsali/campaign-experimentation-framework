@@ -1,0 +1,168 @@
+{
+  "exp001_email_subject_line": {
+    "experiment_id": "exp001_email_subject_line",
+    "shape": {
+      "rows": 50750,
+      "cols": 13
+    },
+    "columns": [
+      "contact_id",
+      "variant",
+      "open_rate",
+      "click_rate",
+      "conversion_rate",
+      "unsubscribe_rate",
+      "spam_complaint_rate",
+      "day_of_week",
+      "assignment_date",
+      "industry",
+      "company_size",
+      "region",
+      "engagement_tier"
+    ],
+    "dtypes": {
+      "contact_id": "str",
+      "variant": "str",
+      "open_rate": "int64",
+      "click_rate": "int64",
+      "conversion_rate": "int64",
+      "unsubscribe_rate": "int64",
+      "spam_complaint_rate": "int64",
+      "day_of_week": "int64",
+      "assignment_date": "str",
+      "industry": "str",
+      "company_size": "str",
+      "region": "str",
+      "engagement_tier": "str"
+    },
+    "date_ranges": {}
+  },
+  "exp002_landing_page_mvt": {
+    "experiment_id": "exp002_landing_page_mvt",
+    "shape": {
+      "rows": 80000,
+      "cols": 10
+    },
+    "columns": [
+      "contact_id",
+      "variant",
+      "bounce_rate",
+      "form_submit_rate",
+      "demo_request_rate",
+      "time_on_page",
+      "industry",
+      "company_size",
+      "region",
+      "engagement_tier"
+    ],
+    "dtypes": {
+      "contact_id": "str",
+      "variant": "str",
+      "bounce_rate": "int64",
+      "form_submit_rate": "int64",
+      "demo_request_rate": "int64",
+      "time_on_page": "float64",
+      "industry": "str",
+      "company_size": "str",
+      "region": "str",
+      "engagement_tier": "str"
+    },
+    "date_ranges": {}
+  },
+  "exp003_holdout": {
+    "experiment_id": "exp003_holdout",
+    "shape": {
+      "rows": 60000,
+      "cols": 11
+    },
+    "columns": [
+      "account_id",
+      "variant",
+      "period",
+      "date",
+      "opportunity_created",
+      "pipeline_value",
+      "days_to_opportunity",
+      "industry",
+      "company_size",
+      "region",
+      "engagement_tier"
+    ],
+    "dtypes": {
+      "account_id": "str",
+      "variant": "str",
+      "period": "str",
+      "date": "str",
+      "opportunity_created": "int64",
+      "pipeline_value": "float64",
+      "days_to_opportunity": "float64",
+      "industry": "str",
+      "company_size": "str",
+      "region": "str",
+      "engagement_tier": "str"
+    },
+    "date_ranges": {}
+  },
+  "exp004_channel_mix": {
+    "experiment_id": "exp004_channel_mix",
+    "shape": {
+      "rows": 40000,
+      "cols": 10
+    },
+    "columns": [
+      "account_id",
+      "variant",
+      "mql_conversion_rate",
+      "engagement_score_delta",
+      "cost_per_mql",
+      "unsubscribe_rate",
+      "industry",
+      "company_size",
+      "region",
+      "engagement_tier"
+    ],
+    "dtypes": {
+      "account_id": "str",
+      "variant": "str",
+      "mql_conversion_rate": "int64",
+      "engagement_score_delta": "float64",
+      "cost_per_mql": "float64",
+      "unsubscribe_rate": "int64",
+      "industry": "str",
+      "company_size": "str",
+      "region": "str",
+      "engagement_tier": "str"
+    },
+    "date_ranges": {}
+  },
+  "exp005_send_time": {
+    "experiment_id": "exp005_send_time",
+    "shape": {
+      "rows": 60000,
+      "cols": 9
+    },
+    "columns": [
+      "contact_id",
+      "send_time_group",
+      "open_rate",
+      "click_rate",
+      "unsubscribe_rate",
+      "industry",
+      "company_size",
+      "region",
+      "engagement_tier"
+    ],
+    "dtypes": {
+      "contact_id": "str",
+      "send_time_group": "str",
+      "open_rate": "int64",
+      "click_rate": "int64",
+      "unsubscribe_rate": "int64",
+      "industry": "str",
+      "company_size": "str",
+      "region": "str",
+      "engagement_tier": "str"
+    },
+    "date_ranges": {}
+  }
+}
