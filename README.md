@@ -190,32 +190,32 @@ Feature store                          →  Stratification in balance checks
 ### Posterior Distributions (Bayesian A/B)
 The overlapping Beta posteriors for open rate control and treatment, with 95% HDI shaded and the difference distribution showing P(treatment > control).
 
-`visuals/EXP-001_posterior_open_rate.png`
+![Posterior Distributions](visuals/EXP-001_posterior_open_rate.png)
 
 ### Lift Forest Plot (Multi-Metric)
 Forest plot showing absolute lift with 95% CIs for all metrics, color-coded by significance.
 
-`visuals/EXP-001_lift_forest.png`
+![Lift Forest Plot](visuals/EXP-001_lift_forest.png)
 
 ### Sequential Monitoring
 O'Brien-Fleming efficacy and futility boundaries with the test statistic trajectory over the experiment.
 
-`visuals/OBF-demo_sequential.png`
+![Sequential Monitoring](visuals/OBF-demo_sequential.png)
 
 ### Holdout Comparison
 Pre/post metric comparison for exposed vs holdout groups, with baseline period, test period, and incremental lift annotation.
 
-`visuals/EXP-003_holdout_opportunity_created.png`
+![Holdout Comparison](visuals/EXP-003_holdout_opportunity_created.png)
 
 ### Segment Lift
 Horizontal bar chart of per-segment incremental lift with CIs, color-coded by recommendation tier.
 
-`visuals/EXP-003_segment_lift_industry.png`
+![Segment Lift](visuals/EXP-003_segment_lift_industry.png)
 
 ### P(Being Best) — Multivariate
 Bayesian probability of being the best variant for the A/B/C/D landing page test.
 
-`visuals/EXP-002_prob_best_form_submit_rate.png`
+![P(Being Best) Multivariate](visuals/EXP-002_prob_best_form_submit_rate.png)
 
 ---
 
