@@ -61,7 +61,7 @@ This project is the analytical layer built on top of the **CDP Audience Segmenta
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/campaign-experimentation-framework
+git clone https://github.com/annsali/campaign-experimentation-framework
 cd campaign-experimentation-framework
 pip install -r requirements.txt
 
